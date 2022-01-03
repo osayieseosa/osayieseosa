@@ -1,0 +1,229 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: courier;
+  font-weight: bold;
+}
+body{
+  background: url('bg.jpeg');
+  width: 100vw;
+  max-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+margin: 0;
+  padding: 0;
+}
+.header{
+ font-size: 6vw;
+ text-align: center;
+ width: 100vw;
+ max-height: 10vw;
+}
+.explain{
+  width: 100vw;
+ height: 70vw;
+ font-size: 4vw;
+ text-align: justify;
+ padding: 0 2vw;
+}
+ .explain span{
+  font-size: 6vw;
+text-align: center;
+} 
+.dob{
+  font-size: 5vw;
+  font-family: helvetica;
+  text-align: center;
+}
+.inputdate{
+  display: flex;
+  font-size: 4vw;
+}
+.inputdate input{
+  width: 12vw;
+  height: 4vw;
+}
+.inputdate p{
+margin-right: 9vw;
+}
+.name{
+  margin-top: 5vw;
+  width: 100vw;
+  font-size: 4vw;
+}
+.name p{
+margin-left: 18vw;
+}
+.name input{
+  width: 40vw;
+  height: 4vw;
+}
+.btn{
+  border: .3vw solid goldenrod;
+  padding: 0 11vw;
+  line-height: 7vw;
+  width: 50vw;
+  cursor: pointer;
+  font-size: 3vw;
+  margin-top: 7vw;
+  margin-left: 25vw;
+}
+hr{
+  margin-top: 3vw;
+}
+.photo{
+  width: 30vw;
+  margin-left: 35vw;
+}
+.photo img{
+  position: relative;
+  width: 100%;
+}
+.center{
+ width: 100vw;
+ text-align: center;
+ font-size: 6vw;
+ max-height: 10vw;
+}
+.text{
+  text-align: justify;
+  width: 98vw;
+  font-size: 4vw;
+  max-height: 100vw;
+background: #ACB1CF;
+padding: 0 1vw;
+background: -webkit-linear-gradient(to right, #ACB1CF 0%, #4856CF 100%);
+background: -moz-linear-gradient(to right, #ACB1CF 0%, #4856CF 100%);
+background: linear-gradient(to right, #ACB1CF 0%, #4856CF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.photo1{
+  width: 30vw;
+  margin-left: 35vw;
+}
+.photo1 img{
+  position: relative;
+  width: 100%;
+}
+.center1{
+ width: 100vw;
+ text-align: center;
+ font-size: 6vw;
+ max-height: 10vw;
+}
+.text1{
+  text-align: justify;
+  width: 98vw;
+  font-size: 4vw;
+  padding: 0 1vw;
+  max-height: 100vw;
+background: #ACB1CF;
+background: -webkit-linear-gradient(to right, #ACB1CF 0%, #4856CF 100%);
+background: -moz-linear-gradient(to right, #ACB1CF 0%, #4856CF 100%);
+background: linear-gradient(to right, #ACB1CF 0%, #4856CF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.photo2{
+  width: 30vw;
+  margin-left: 35vw;
+}
+.photo2 img{
+  position: relative;
+  width: 100%;
+}
+.center2{
+ width: 100vw;
+ text-align: center;
+ font-size: 6vw;
+ max-height: 10vw;
+}
+.text2{
+  text-align: justify;
+  width: 98vw;
+  padding: 0 1vw;
+  font-size: 4vw;
+  max-height: 100vw;
+background: #ACB1CF;
+background: -webkit-linear-gradient(to right, #ACB1CF 0%, #4856CF 100%);
+background: -moz-linear-gradient(to right, #ACB1CF 0%, #4856CF 100%);
+background: linear-gradient(to right, #ACB1CF 0%, #4856CF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.photo3{
+  width: 30vw;
+  margin-left: 35vw;
+}
+.photo3 img{
+  position: relative;
+  width: 100%;
+}
+.center3{
+ width: 100vw;
+ text-align: center;
+ font-size: 6vw;
+ max-height: 10vw;
+}
+.text3{
+  text-align: justify;
+  width: 98vw;
+  padding: 0 1vw;
+  font-size: 4vw;
+  max-height: 100vw;
+background: #ACB1CF;
+background: -webkit-linear-gradient(to right, #ACB1CF 0%, #4856CF 100%);
+background: -moz-linear-gradient(to right, #ACB1CF 0%, #4856CF 100%);
+background: linear-gradient(to right, #ACB1CF 0%, #4856CF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.cnt{
+  display: none;
+}
+.cnt1{
+  display: none;
+}
+.cnt2{
+  display: none;
+}
+.cnt3{
+  display: none;
+}
+.cnt4{
+  display: none;
+}
+.cnt5{
+  display: none;
+}
+.cnt6{
+  display: none;
+}
+.cnt7{
+  display: none;
+}
+.cnt8{
+  display: none;
+}
+.cnt9{
+  display: none;
+}
+.cnt10{
+  display: none;
+}
+.cnt11{
+  display: none;
+}
+.errorpage{
+  width: 100vw;
+  max-height: 20vw;
+}
+.errorp{
+  color: red;
+  font-size: 6vw;
+  font-family: helvetica;
+}
