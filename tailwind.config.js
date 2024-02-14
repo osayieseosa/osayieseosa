@@ -23,8 +23,8 @@ module.exports = {
           '100%': {opacity: '1'}
         },
         type: {
-          '0%': {width: '0px'},
-          '95%': {width: '120px'},
+          '0%': {width: '0px', height:'16px'},
+          '95%': {width: '120px',  height:'16px'},
           '100%': {width: '120px',borderRight:'none'}
         }
       },
