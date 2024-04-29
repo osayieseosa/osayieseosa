@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import { Metadata } from "next";
 import "./globals.css";
 import { AppWrapper } from "@/context";
 import {  ThemeModeScript } from "flowbite-react";
@@ -8,11 +8,29 @@ import PopupComponent from "./components/PopupComponent";
 import SearchModal from "./components/SearchModal";
 import NextTopLoader from 'nextjs-toploader'
 
-//#070f2b,#1b1a55,#535c91,#9290c3
+import { ENV } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Osayi Eseosa - Official Home Page",
+  metadataBase: new URL(ENV.NEXT_PUBLIC_WEBSITE_URL),
+  title:{
+    default: 'Osayi Eseosa - Official Home Page',
+    template: "%s | Osayi Eseosa - Official Home Page"
+  },
+  description:"Osayi Eseosa is a fullstack javascript web developer with high expertise in his field with a curiosity piqued by tech",
+
+  openGraph:{title: "Osayi Eseosa - Official Home Page",
   description: "Osayi Eseosa is a fullstack javascript web developer with high expertise in his field with a curiosity piqued by tech",
+  url: ENV.NEXT_PUBLIC_WEBSITE_URL,
+  siteName: "Osayi Eseosa",
+  locale:"en_US",
+  type: 'website',
+  images: '/opengraph-image.png'
+},
+twitter: {
+  title: 'Osayi Eseosa - Official Home Page',
+  card: 'summary_large_image'
+},
+
 };
 
 export default function RootLayout({

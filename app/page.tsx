@@ -2,7 +2,6 @@
 import { Button } from "flowbite-react";
 import HeroComponent from "./components/HeroComponent";
 import ContactComponent from './components/ContactComponent'
-const homepageLink = 'http://localhost:3000'
 
 export default function Home() {
   return (
@@ -16,7 +15,7 @@ export default function Home() {
                     Eseosa leverages cutting-edge tools to elevate your online presence. The main sections are powered by React for dynamic interfaces, Express/Node for robust backend functionality, and MongoDB for efficient data management, Experience a website that not only promotes your brand but also delivers exceptional functionality.
                     </p>
                     <div className="items-center justify-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start">
-                    <Button className="bg-primary-light dark:bg-primary-dark" href={homepageLink+'/tools'}>
+                    <Button className="bg-primary-light dark:bg-primary-dark" href='/tools'>
                         Explore his stack
                     </Button>
                     </div>
@@ -37,7 +36,7 @@ export default function Home() {
                 In the realm of web development, Eseosa stands out by not only crafting websites but also ensuring their continuous real-world utilization. His expertise extends to creating platforms that are not only functional but inherently self-maintainable, reflecting a commitment to sustainable digital solutions.
                 </p>
                 <div className="items-center justify-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start">
-    <Button className="bg-primary-light dark:bg-primary-dark" href={homepageLink+'/projects'}>Explore his projects</Button>
+    <Button className="bg-primary-light dark:bg-primary-dark" href='/projects'>Explore his projects</Button>
                 </div>
             </div>
             <div>
@@ -56,7 +55,7 @@ export default function Home() {
                 Eseosa's dedication to the tech community is evident in his blog, where he generously shares insights gained from his own mistakes. Geared towards expediting the learning process for both beginners and intermediate web developer, his articles serce as a valuable resource. By distilling his experiences into pratical lessons, Eseosa empowers others to navigate the intricate world of web development more efficiently.
                 </p>
                 <div className="items-center justify-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start">
-                    <Button href={homepageLink+'/blogs'} className="bg-primary-light dark:bg-primary-dark">Explore his  blogs</Button>
+                    <Button href='/blogs' className="bg-primary-light dark:bg-primary-dark">Explore his  blogs</Button>
                 </div>
             </div>
             <div>
