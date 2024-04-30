@@ -11,7 +11,7 @@ export default function BannerComponent() {
           <p className="flex items-center text-sm font-normal text-gray-500 dark:text-gray-400">
             <MdAnnouncement className="mr-4 h-4 w-4" />
             <span className="[&_p]:inline">
-              Hey if you'd want to checkout some more of my projects hit me up on&nbsp;
+              Hey if you&apos;d want to checkout some more of my projects hit me up on&nbsp;
               <a
                 href="https://wa.link/5my8vf"
                 className="inline font-medium text-cyan-600 underline decoration-solid underline-offset-2 hover:no-underline dark:text-cyan-500"
