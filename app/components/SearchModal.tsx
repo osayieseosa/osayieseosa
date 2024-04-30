@@ -3,7 +3,7 @@
 import { useAppContext } from "@/context";
 import { Modal } from "flowbite-react";
 import Link from "next/link";
-import React,{ useState, useEffect } from "react";
+import React,{ useState, useEffect, useMemo } from "react";
 
 export default function SearchModal() {
   const {openModal, setOpenModal} = useAppContext();
@@ -20,7 +20,7 @@ export default function SearchModal() {
   useEffect(() => {
     const searchResult = navigationArray.filter((item) => item.toLowerCase().includes(search.toLowerCase()))
     setSearchResult(searchResult)
-  },[search, navigationArray])
+  },[search])
 
 
   return (
