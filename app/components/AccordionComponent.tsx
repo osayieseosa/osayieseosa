@@ -3,7 +3,7 @@
 
 import { Accordion } from "flowbite-react";
 
-export default function AccordionComponent() {
+export default function AccordionComponent():JSX.Element {
   return (
     <div className="p-5">
     <Accordion collapseAll>
@@ -43,7 +43,7 @@ export default function AccordionComponent() {
         <Accordion.Title>MongoDB</Accordion.Title>
         <Accordion.Content>
           <p className="mb-2 text-gray-500 dark:text-gray-400">
-          MongoDB is a NoSQL database that is used for storing and retrieving data in a flexible, JSON-like format. It's designed to handle large volumes of data, and it's document-oriented structure allows for easy scalability and quick development. MongoDB is often used in web applications, content management systems, and other scenarios where a dynamic and scalable database solution is needed.
+          MongoDB is a NoSQL database that is used for storing and retrieving data in a flexible, JSON-like format. It&apos;s designed to handle large volumes of data, and it&apos;s document-oriented structure allows for easy scalability and quick development. MongoDB is often used in web applications, content management systems, and other scenarios where a dynamic and scalable database solution is needed.
           </p>
         </Accordion.Content>
       </Accordion.Panel>

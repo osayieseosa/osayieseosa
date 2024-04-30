@@ -2,6 +2,7 @@
 import { Button } from "flowbite-react";
 import HeroComponent from "./components/HeroComponent";
 import ContactComponent from './components/ContactComponent'
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -21,7 +22,10 @@ export default function Home() {
                     </div>
                 </div>
                 <div>
-                    <img
+                    <Image
+                    width={640}
+                    height={427}
+                    alt="tools"
                         src="/images/tools.jpg"
                         className="w-full mx-auto mt-6 sm:w-10/12"
                     />
@@ -40,7 +44,10 @@ export default function Home() {
                 </div>
             </div>
             <div>
-                <img
+                <Image
+                width={640}
+                height={427}
+                alt="projects"
                     src="/images/projects.jpg"
                     className="w-full mx-auto mt-6 sm:w-10/12"
                 />
@@ -52,14 +59,17 @@ export default function Home() {
                     Blogging
                 </h1>
                 <p className="max-w-4xl leading-relaxed sm:mx-auto lg:ml-0 text-gray-500 dark:text-gray-400">
-                Eseosa's dedication to the tech community is evident in his blog, where he generously shares insights gained from his own mistakes. Geared towards expediting the learning process for both beginners and intermediate web developer, his articles serce as a valuable resource. By distilling his experiences into pratical lessons, Eseosa empowers others to navigate the intricate world of web development more efficiently.
+                Eseosa&apos;s dedication to the tech community is evident in his blog, where he generously shares insights gained from his own mistakes. Geared towards expediting the learning process for both beginners and intermediate web developer, his articles serce as a valuable resource. By distilling his experiences into pratical lessons, Eseosa empowers others to navigate the intricate world of web development more efficiently.
                 </p>
                 <div className="items-center justify-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start">
                     <Button href='/blogs' className="bg-primary-light dark:bg-primary-dark">Explore his  blogs</Button>
                 </div>
             </div>
             <div>
-                <img
+                <Image
+                width={640}
+                height={427}
+                alt="blogging"
                     src="/images/blogging.png"
                     className="w-full mx-auto mt-6 sm:w-10/12"
                 />

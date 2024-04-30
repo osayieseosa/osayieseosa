@@ -3,6 +3,7 @@
 import { Navbar } from "flowbite-react";
 import { DarkThemeToggle } from "flowbite-react";
 import SearchComponent from "./SearchComponent";
+import Image from "next/image";
 
 export function NavbarComponent() {
   
@@ -10,7 +11,7 @@ export function NavbarComponent() {
     <div className="m-2">
     <Navbar fluid border rounded className="bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark">
       <Navbar.Brand href='/'>
-        <img src="/images/avatar.png" className="mr-3 h-12 rounded-full" alt="Avatar" />
+        <Image width={200} height={200} src="/images/avatar.png" className="mr-3 w-12 rounded-full" alt="Avatar" />
         <span className="self-center whitespace-nowrap text-xl font-extralight font-serif dark:text-white">Osayi Eseosa</span>
       </Navbar.Brand>
       <div className="flex md:order-2 gap-6">

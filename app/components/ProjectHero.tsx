@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 const ProjectHero = () => {
   return (
@@ -12,7 +13,9 @@ const ProjectHero = () => {
             <span className='text-cyan-500'>Websites</span> Delivered
           </h1>
         </div>
-        <img
+        <Image
+          width={1920}
+          height={1080}
           className='w-full max-h-[500px] object-cover'
           src='/images/linus-mimietz-gvptKmonylk-unsplash.jpg'
           alt='/'

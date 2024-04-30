@@ -2,6 +2,7 @@
 
 import { Footer } from "flowbite-react";
 import {BsGithub, BsInstagram } from "react-icons/bs";
+import Image from "next/image";
 
 export default function FooterComponent() {
   const today = new Date()
@@ -11,9 +12,11 @@ export default function FooterComponent() {
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>
             <Footer.Brand src='' href='/'>
-              <img
+              <Image
+                width={200}
+                height={200}
                 src="/images/avatar.png"
-                className="mr-3 h-12 rounded-full"
+                className="mr-3 w-12 rounded-full"
                 alt="Avatar"
               />
               <span className="self-center whitespace-nowrap text-xl font-extralight font-serif dark:text-white">

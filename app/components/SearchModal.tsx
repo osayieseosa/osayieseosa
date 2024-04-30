@@ -20,7 +20,7 @@ export default function SearchModal() {
   useEffect(() => {
     const searchResult = navigationArray.filter((item) => item.toLowerCase().includes(search.toLowerCase()))
     setSearchResult(searchResult)
-  },[search])
+  },[search, navigationArray])
 
 
   return (

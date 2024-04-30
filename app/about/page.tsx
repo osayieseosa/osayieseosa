@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { Card, Button } from 'flowbite-react'
+import Image from 'next/image'
 import {BsWhatsapp,BsTelephone,BsMailbox,BsTelegram} from 'react-icons/bs'
 
 export default function AboutPage() {
@@ -13,7 +14,7 @@ export default function AboutPage() {
         <p className="w-9/12 font-normal text-gray-500 dark:text-gray-400">Eseosa works as a javascript fullstack web developer. He builds website with extreme care to ensure customers unexpressable satisfaction of his services, he ensures every functional component of a website is aimed at promoting the users brand and product, with slick designs, cutting edge technology Eseosa stands out in his field and you can Contack him today.</p>
         <Button size='lg' className='bg-primary-light dark:bg-primary-dark'>Contact</Button>
         </div>
-            <img className="hidden lg:inline-flex h-40 lg:h-64 xl:h-72 mx-5" src="/images/undraw_feeling_proud_qne1.svg"/>
+            <Image alt="feeling_proud" width={711.1879} height={669.68268} className="hidden lg:inline-flex h-40 lg:h-64 xl:h-72 mx-5" src="/images/undraw_feeling_proud_qne1.svg"/>
     </section>
         <section className='w-full space-y-10 text-center text-3xl font-bold py-10'>
             <h2 className='text-gray-800 dark:text-white'>Via</h2>
@@ -43,8 +44,8 @@ export default function AboutPage() {
 
         </section>
         <section className='p-10 space-y-10 text-text-light dark:text-text-dark'>
-        <h2 className=' font-bold text-2xl'>Web Development</h2>
-        <p className='max-w-md'>Eseosa creates quality websites at affordable prices, to find out more about this service you can contact him directly on whatsApp, Eseosa has been creatinf dynamic and responsive websites with some of the most popular tech stack.</p>
+        <h2 className='font-bold text-2xl'>Web Development</h2>
+        <p className='max-w-md'>Eseosa creates quality websites at affordable prices, to find out more about this service you can contact him directly on whatsApp, Eseosa has been creating dynamic and responsive websites with some of the most popular tech stack.</p>
         </section>
 <section className='w-full space-y-10 text-center py-10  text-text-light dark:text-text-dark'>
 <h2 className='text-3xl font-bold'>Services</h2>
@@ -90,11 +91,11 @@ export default function AboutPage() {
         Backend development
       </h5>
       <p className="font-normal ">
-        Hire him to build you a complete, functional and unctional web application.
+        Hire him to build you a complete, functional and seamless web application.
       </p>
       <Button href="https://wa.link/5my8vf" className='bg-primary-light dark:bg-primary-dark'>
         Contact
-        <svg className="-mr-1 ml-2 h-4 w-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <svg className="mr-1 ml-2 h-4 w-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
           <path
             fillRule="evenodd"
             d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
