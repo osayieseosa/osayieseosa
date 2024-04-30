@@ -9,9 +9,9 @@ export default function AboutPage() {
   return (
     <div className='divide-y-2'>
             <section className="flex justify-between items-center  py-10 border-y xl:border-hidden xl:rounded-xl">
-        <div className="px-10 space-y-5 lg:py-6">
+        <div className="px-5 sm:px-10 space-y-5 lg:py-6">
         <h2 className="text-6xl md:text-7xl max-w-xl font-serif w-11/12 sm:w-9/12 text-gray-800 dark:text-white font-semibold">About <span className=" text-accent-light dark:text-accent-dark">Eseosa</span>.</h2>
-        <p className="w-9/12 font-normal text-gray-500 dark:text-gray-400">Eseosa works as a javascript fullstack web developer. He builds website with extreme care to ensure customers unexpressable satisfaction of his services, he ensures every functional component of a website is aimed at promoting the users brand and product, with slick designs, cutting edge technology Eseosa stands out in his field and you can Contack him today.</p>
+        <p className="w-10/12 font-normal text-gray-500 dark:text-gray-400">Eseosa works as a javascript fullstack web developer. He builds website with extreme care to ensure customers unexpressable satisfaction of his services, he ensures every functional component of a website is aimed at promoting the users brand and product, with slick designs, cutting edge technology Eseosa stands out in his field and you can Contack him today.</p>
         <Button size='lg' className='bg-primary-light dark:bg-primary-dark'>Contact</Button>
         </div>
             <Image alt="feeling_proud" width={711.1879} height={669.68268} className="hidden lg:inline-flex h-40 lg:h-64 xl:h-72 mx-5" src="/images/undraw_feeling_proud_qne1.svg"/>
