@@ -62,7 +62,7 @@ export default function Home() {
                 Eseosa&apos;s dedication to the tech community is evident in his blog, where he generously shares insights gained from his own mistakes. Geared towards expediting the learning process for both beginners and intermediate web developer, his articles serce as a valuable resource. By distilling his experiences into pratical lessons, Eseosa empowers others to navigate the intricate world of web development more efficiently.
                 </p>
                 <div className="items-center justify-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start">
-                    <Button href='/blogs' className="bg-primary-light dark:bg-primary-dark">Explore his  blogs</Button>
+                    <Button href='/posts' className="bg-primary-light dark:bg-primary-dark">Explore his  blogs</Button>
                 </div>
             </div>
             <div>

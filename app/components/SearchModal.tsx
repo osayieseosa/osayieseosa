@@ -3,7 +3,7 @@
 import { useAppContext } from "@/context";
 import { Modal } from "flowbite-react";
 import Link from "next/link";
-import React,{ useState, useEffect, useMemo } from "react";
+import React,{ useState, useEffect } from "react";
 
 export default function SearchModal() {
   const {openModal, setOpenModal} = useAppContext();

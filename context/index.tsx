@@ -21,25 +21,6 @@ export function AppWrapper({children}: {
             event.preventDefault()
             setOpenModal(false)
         }
-        // else if(event.key === 'h'){
-        //     router.push('/')
-        //     setOpenModal(false)
-        // }else if(event.key === 'a'){
-        //     router.push('/about')
-        //     setOpenModal(false)
-        // }else if(event.key === 'p'){
-        //     router.push('/projects')
-        //     setOpenModal(false)
-        // }else if(event.key === 'b'){
-        //     router.push('/blogs')
-        //     setOpenModal(false)
-        // }else if(event.key === 'c'){
-        //     router.push('/contact')
-        //     setOpenModal(false)
-        // }else if(event.key === 't'){
-        //     router.push('/tools')
-        //     setOpenModal(false)
-        // }
     }
 
     useEffect(() => {
