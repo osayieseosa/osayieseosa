@@ -25,7 +25,7 @@ export default function Home() {
   return (
 
     <div className="mx-auto max-w-xl py-8">
-<h1 className='text-3xl max-w-xl mx-auto px-5 font-semibold pb-10 flex gap-3'><HiPencil className='text-gray-700'/>MY BLOGS</h1>
+<h1 className='text-3xl max-w-xl mx-auto px-5 font-semibold pb-10 flex gap-3 text-gray-500'><HiPencil className='text-gray-700'/>MY BLOGS</h1>
       {posts.map((post, idx) => (
         <PostCard key={idx} {...post} />
       ))}

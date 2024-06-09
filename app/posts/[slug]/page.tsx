@@ -23,7 +23,7 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
         <h1 className="text-3xl font-semibold font-serif p-5">{post.title}</h1>
           </div>
       </div>
-      <div className="[&>*]:mb-3 [&>*:last-child]:mb-0 p-5  mx-auto max-w-xl" dangerouslySetInnerHTML={{ __html: post.body.html }} />
+      <div className="[&>*]:mb-3 [&>*:last-child]:mb-0 p-5  mx-auto max-w-xl text-text-light dark:text-text-dark" dangerouslySetInnerHTML={{ __html: post.body.html }} />
     </article>
   )       
 }
