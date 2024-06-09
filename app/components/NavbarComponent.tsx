@@ -27,7 +27,7 @@ export function NavbarComponent() {
         Home</Navbar.Link>
         <Navbar.Link href="/about" className="font-light text-text-light dark:text-text-dark hover:bg-secondary-light">About</Navbar.Link>
         <Navbar.Link href='/projects' className="font-light text-text-light dark:text-text-dark hover:bg-secondary-light">Projects</Navbar.Link>
-        <Navbar.Link href='/blogs' className="font-light text-text-light dark:text-text-dark hover:bg-secondary-light">Blogs</Navbar.Link>
+        <Navbar.Link href='/posts' className="font-light text-text-light dark:text-text-dark hover:bg-secondary-light">Blogs</Navbar.Link>
         <Navbar.Link href='/contact' className="font-light text-text-light dark:text-text-dark hover:bg-secondary-light">Contact</Navbar.Link>
         <Navbar.Link href='/tools' className="font-light text-text-light dark:text-text-dark hover:bg-secondary-light">Tools</Navbar.Link>
       </Navbar.Collapse>
